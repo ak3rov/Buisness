@@ -1,0 +1,36 @@
+.header{
+    padding: 15px 0;
+    background: white;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    .navbar{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+
+       &__nav{
+           display: flex;
+           column-gap: 39px;
+       }
+
+       &__btns{
+           display: flex;
+           column-gap: 13px;
+       }
+
+       .nav__item{
+           list-style: none;
+       }
+
+       .nav__link{
+           text-decoration: none;
+           color: black;
+           font-family: 'Inter';
+           font-weight: 400;
+           font-size: 14px;
+           line-height: 17px;
+           text-transform: uppercase;
+       }
+    }
+}
