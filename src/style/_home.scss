@@ -1,0 +1,46 @@
+.home{
+    background: url(../images/fon.png)center no-repeat;
+
+    .container-home{
+        min-width: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px auto;
+        padding: 20px; 
+        padding-left: 150px;
+        
+    }
+    
+    &__title{  
+      font-family: 'Readex Pro';
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px; 
+    } 
+
+    &__subtitle{
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        padding-top: 19px;
+    }
+
+    &__btn{
+        padding-top: 30px;
+    }
+    
+    &__bt{
+        background: #DCE5E2;  
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: capitalize;
+        border: 1px solid #000000;
+        border-radius: 200px;
+        height: 50px;
+        width: 170px;
+    }
+}

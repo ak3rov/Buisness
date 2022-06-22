@@ -5,7 +5,7 @@
 }
 
 .header {
-  padding: 15px 0;
+  padding: 25px 0;
   background: white;
   padding-right: 30px;
   padding-left: 30px;
@@ -36,4 +36,45 @@
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
+}
+
+.home {
+  background: url(../images/fon.png) center no-repeat;
+}
+.home .container-home {
+  min-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+  padding: 20px;
+  padding-left: 150px;
+}
+.home__title {
+  font-family: "Readex Pro";
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+}
+.home__subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 19px;
+}
+.home__btn {
+  padding-top: 30px;
+}
+.home__bt {
+  background: #DCE5E2;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  height: 50px;
+  width: 170px;
 }/*# sourceMappingURL=style.css.map */
